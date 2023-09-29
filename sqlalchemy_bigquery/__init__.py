@@ -42,6 +42,7 @@ from ._types import (
     TIME,
     TIMESTAMP,
 )
+from .merge import Merge  # noqa
 
 __all__ = [
     "__version__",
@@ -58,6 +59,7 @@ __all__ = [
     "FLOAT64",
     "INT64",
     "INTEGER",
+    "Merge",
     "NUMERIC",
     "RECORD",
     "STRING",
